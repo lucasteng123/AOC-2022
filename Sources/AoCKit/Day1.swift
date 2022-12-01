@@ -12,20 +12,14 @@ public final class Day1: Day {
                     .components(separatedBy: "\n")
                     .compactMap{Int($0)}.reduce(0,+)
             }
-        
+            .sorted(by: >)
     }
 
     public func part1() -> Int {
-        var highest = 0
-        for calories in input {
-            if highest < calories{
-                highest = calories
-            }
-        }
-        return highest
+        return self.input.first!
     }
 
     public func part2() -> Int {
-        return input.sorted(by: >)[..<3].reduce(0,+)
+        return self.input[..<3].reduce(0,+)
     }
 }
