@@ -120,6 +120,7 @@ final class AOC {
         request.httpMethod = "GET"
 
         request.addValue("session=\(Config.session)", forHTTPHeaderField: "Cookie")
+        request.addValue("https://github.com/lucasteng123/AOC-2022 by lucasteng@icloud.com", forHTTPHeaderField: "User-Agent")
 
         let session = URLSession(configuration: URLSessionConfiguration.default, delegate: nil, delegateQueue: nil)
 
