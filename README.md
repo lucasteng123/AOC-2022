@@ -13,3 +13,13 @@ I knew going into this that string manipulation would be a big throughline on ea
 Part two was quite easy, I was able to just sort the array then reduce the first 3 items in the array. Probably would have worked for number one, but sorting would be significantly slower than just iterating over the array once, checking against whether it was the highest. 
 
 > Edit: why not sort it when the data is being initialized. Then each actual calculation can be much simpler, and much easier to read
+
+### Day 2
+
+## EW.
+
+For some reason this one was quite difficult for me, I ended up just hard coding a lot, and the direction I went down for Part 1 definitely didn't pay off in the long run. The code runs, and it is legible, but I am sure there is some way to make this cleaner. The first thing that comes in mind is figuring out how to subtract from enums in swift, as just moving up or down that list by one would make for an easy solution to #2 ( assuming you wrap back to the top)
+
+The other option would be creating some sort of object for each `shape` that lists what it wins & loses against, but I say again, `Ew.`
+
+This is going to be one to come back to and clean up. 

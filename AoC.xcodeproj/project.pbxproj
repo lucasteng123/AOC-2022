@@ -23,6 +23,7 @@
 /* Begin PBXBuildFile section */
 		BE47DE9C27563C4400F653B9 /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE47DE9B27563C4400F653B9 /* config.swift */; };
 		BE47DEA02757897700F653B9 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = BE47DE9F2757897700F653B9 /* Algorithms */; };
+		E9FDB4662939BD040023BDA3 /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FDB4652939BD040023BDA3 /* Day2.swift */; };
 		OBJ_106 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_53 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* main.swift */; };
 		OBJ_55 /* AoCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AoC::AoCKit::Product" /* AoCKit.framework */; };
@@ -63,6 +64,7 @@
 		BE47DE9B27563C4400F653B9 /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
 		BE47DE9D2756CDF500F653B9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E9FDB46429387B250023BDA3 /* Input */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Input; sourceTree = "<group>"; };
+		E9FDB4652939BD040023BDA3 /* Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
 		OBJ_11 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		OBJ_12 /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
 		OBJ_40 /* AoC_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoC_Tests.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			children = (
 				OBJ_11 /* Day.swift */,
 				OBJ_12 /* Day1.swift */,
+				E9FDB4652939BD040023BDA3 /* Day2.swift */,
 			);
 			name = AoCKit;
 			path = Sources/AoCKit;
@@ -293,6 +296,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_62 /* Day.swift in Sources */,
+				E9FDB4662939BD040023BDA3 /* Day2.swift in Sources */,
 				OBJ_63 /* Day1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

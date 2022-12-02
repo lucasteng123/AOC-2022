@@ -33,3 +33,22 @@ final class AoCDay1: XCTestCase {
     // MARK: - Day 2
     
 }
+
+final class AoCDay2: XCTestCase {
+    
+    // MARK: - Day 1
+    let input = """
+A Y
+B X
+C Z
+"""
+    
+    func testPart1() {
+        XCTAssertEqual(Day2(input: input).part1(), 15)
+    }
+    
+    func testPart2() {
+        XCTAssertEqual(Day2(input: input).part2(), 12)
+    }
+
+}
