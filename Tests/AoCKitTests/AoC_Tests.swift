@@ -30,13 +30,12 @@ final class AoCDay1: XCTestCase {
         XCTAssertEqual(Day1(input: input).part2(), 45000)
     }
     
-    // MARK: - Day 2
     
 }
 
 final class AoCDay2: XCTestCase {
     
-    // MARK: - Day 1
+    // MARK: - Day 2
     let input = """
 A Y
 B X
@@ -49,6 +48,29 @@ C Z
     
     func testPart2() {
         XCTAssertEqual(Day2(input: input).part2(), 12)
+    }
+
+}
+
+@available(macOS 13.0, *)
+final class AoCDay3: XCTestCase {
+    
+    // MARK: - Day 3
+    let input = """
+vJrwpWtwJgWrhcsFMMfFFhFp
+jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL
+PmmdzqPrVvPwwTWBwg
+wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn
+ttgJtRGJQctTZtZT
+CrZsJsPPZsGzwwsLwLmpwMDw
+"""
+    
+    func testPart1() {
+        XCTAssertEqual(Day3(input: input).part1(), 157)
+    }
+    
+    func testPart2() {
+        XCTAssertEqual(Day3(input: input).part2(), 70)
     }
 
 }
