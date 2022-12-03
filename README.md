@@ -23,3 +23,11 @@ For some reason this one was quite difficult for me, I ended up just hard coding
 The other option would be creating some sort of object for each `shape` that lists what it wins & loses against, but I say again, `Ew.`
 
 This is going to be one to come back to and clean up. 
+
+
+### Day 3
+
+This one was fine, part 2 could use some clean up, but I was quite proud of the ascii table (even though it was wrong for a while because I was normalizing both lowercase and uppercase to start at 1........).
+I would like to return to this solution and make it recursive, being able to take any subsets of the data and compare them. Might be able to make effective use of reduce? 
+
+Regardless, it's late, that's a problem for future Lucas
