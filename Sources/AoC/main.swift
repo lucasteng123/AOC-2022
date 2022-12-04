@@ -32,7 +32,8 @@ final class AOC {
         let days: [Int: Day.Type] = [
             1: Day1.self,
             2: Day2.self,
-            3: Day3.self
+            3: Day3.self,
+            4: Day4.self
         ]
 
         guard let input = self.input(for: number) else {

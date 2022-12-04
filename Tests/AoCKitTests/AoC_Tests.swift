@@ -74,3 +74,25 @@ CrZsJsPPZsGzwwsLwLmpwMDw
     }
 
 }
+
+final class AoCDay4: XCTestCase {
+    
+    // MARK: - Day 3
+    let input = """
+2-4,6-8
+2-3,4-5
+5-7,7-9
+2-8,3-7
+6-6,4-6
+2-6,4-8
+"""
+    
+    func testPart1() {
+        XCTAssertEqual(Day4(input: input).part1(), 2)
+    }
+    
+    func testPart2() {
+        XCTAssertEqual(Day4(input: input).part2(), 4)
+    }
+
+}
