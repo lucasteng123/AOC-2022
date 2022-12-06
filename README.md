@@ -37,6 +37,12 @@ Regardless, it's late, that's a problem for future Lucas
 This is the first time I really felt swift fight me. That was quite rough. In JS I would have just regexed each pairing of elves, and then deconstructed them in a single line. Using regexes in Swift seems like a horrible experience. The logic of today I think was pretty solid, but so much of my time was spent bashing my head against swift to make it work. 
 Oh well, this is why I am using a different language than my main day to day language, see what it is like on the other side of the fence. 
 
-- [ ] Learn NSRegularExpression
+- [x] Learn NSRegularExpression: The real tech was the RegexBuilder
 
+### Day 5
+![Very Accurate](https://preview.redd.it/6a7a2o5fz24a1.jpg?width=640&crop=smart&auto=webp&s=3c9df1a19abdff5e6280eb24b2c1f0039d44cebd)
+I was so excited to use Regex after learning the RegexBuilder, however the `Reference<Int>` datatype that it returned made for an incredibly difficult time. The logic for the crane was easy, pop the top `quantity` of items off of one array, reverse them (or not), and put them on another, then rip the top off each array. Parsing that input in and making it work was so much more complex. 
+Very interesting puzzle, and I have learned a lot from today, but it is so hard to google for information or documentation on the `Reference<T>` type.
+Got there in the end, and with a fairly readable code in the end. 
 
+Also, I like how protocols work in swift, the `associatedtype` generic is quite useful.

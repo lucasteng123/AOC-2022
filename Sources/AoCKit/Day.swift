@@ -6,6 +6,7 @@ enum Error: Swift.Error {
 
 public protocol Day {
     init(input: String) throws
-    func part1() throws -> Int
-    func part2() throws -> Int
+    associatedtype Solution
+    func part1() throws -> Solution
+    func part2() throws -> Solution
 }

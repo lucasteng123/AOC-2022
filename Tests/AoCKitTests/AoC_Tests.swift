@@ -77,7 +77,7 @@ CrZsJsPPZsGzwwsLwLmpwMDw
 
 final class AoCDay4: XCTestCase {
     
-    // MARK: - Day 3
+    // MARK: - Day 4
     let input = """
 2-4,6-8
 2-3,4-5
@@ -93,6 +93,31 @@ final class AoCDay4: XCTestCase {
     
     func testPart2() {
         XCTAssertEqual(Day4(input: input).part2(), 4)
+    }
+
+}
+
+final class AoCDay5: XCTestCase {
+    
+    // MARK: - Day 5
+    let input = """
+    [D]
+[N] [C]
+[Z] [M] [P]
+ 1   2   3
+
+move 1 from 2 to 1
+move 3 from 1 to 3
+move 2 from 2 to 1
+move 1 from 1 to 2
+"""
+    
+    func testPart1() {
+        XCTAssertEqual(Day5(input: input).part1(), "CMZ")
+    }
+    
+    func testPart2() {
+        XCTAssertEqual(Day5(input: input).part2(), "0")
     }
 
 }

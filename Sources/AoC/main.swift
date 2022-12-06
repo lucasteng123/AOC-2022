@@ -29,11 +29,12 @@ final class AOC {
     }
 
     private func run(day number: Int) {
-        let days: [Int: Day.Type] = [
+        let days: [Int: any Day.Type] = [
             1: Day1.self,
             2: Day2.self,
             3: Day3.self,
-            4: Day4.self
+            4: Day4.self,
+            5: Day5.self
         ]
 
         guard let input = self.input(for: number) else {
@@ -43,7 +44,7 @@ final class AOC {
             return
         }
 
-        let day: Day
+        let day: any Day
 
         do {
             guard let tryDay = try days[number]?.init(input: input) else {
@@ -70,7 +71,7 @@ final class AOC {
         print("Running Day \(number) as \(target)")
 
         var date = Date()
-        let part1: Int
+        let part1: Any
 
         do {
             part1 = try day.part1()
@@ -85,7 +86,7 @@ final class AOC {
         }
 
         date = Date()
-        let part2: Int
+        let part2: Any
 
         do {
             part2 = try day.part2()
