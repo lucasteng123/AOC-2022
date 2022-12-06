@@ -27,6 +27,7 @@
 		E9FDB468293B1B4F0023BDA3 /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FDB467293B1B4F0023BDA3 /* Day3.swift */; };
 		E9FDB46A293C61910023BDA3 /* Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FDB469293C61910023BDA3 /* Day4.swift */; };
 		E9FDB46C293E292C0023BDA3 /* Day5.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FDB46B293E292C0023BDA3 /* Day5.swift */; };
+		E9FDB46E293EF9580023BDA3 /* Day6.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FDB46D293EF9580023BDA3 /* Day6.swift */; };
 		OBJ_106 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_53 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* main.swift */; };
 		OBJ_55 /* AoCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AoC::AoCKit::Product" /* AoCKit.framework */; };
@@ -71,6 +72,7 @@
 		E9FDB467293B1B4F0023BDA3 /* Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
 		E9FDB469293C61910023BDA3 /* Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4.swift; sourceTree = "<group>"; };
 		E9FDB46B293E292C0023BDA3 /* Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5.swift; sourceTree = "<group>"; };
+		E9FDB46D293EF9580023BDA3 /* Day6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6.swift; sourceTree = "<group>"; };
 		OBJ_11 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		OBJ_12 /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
 		OBJ_40 /* AoC_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoC_Tests.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				E9FDB467293B1B4F0023BDA3 /* Day3.swift */,
 				E9FDB469293C61910023BDA3 /* Day4.swift */,
 				E9FDB46B293E292C0023BDA3 /* Day5.swift */,
+				E9FDB46D293EF9580023BDA3 /* Day6.swift */,
 			);
 			name = AoCKit;
 			path = Sources/AoCKit;
@@ -306,6 +309,7 @@
 			files = (
 				OBJ_62 /* Day.swift in Sources */,
 				E9FDB46A293C61910023BDA3 /* Day4.swift in Sources */,
+				E9FDB46E293EF9580023BDA3 /* Day6.swift in Sources */,
 				E9FDB4662939BD040023BDA3 /* Day2.swift in Sources */,
 				E9FDB468293B1B4F0023BDA3 /* Day3.swift in Sources */,
 				E9FDB46C293E292C0023BDA3 /* Day5.swift in Sources */,

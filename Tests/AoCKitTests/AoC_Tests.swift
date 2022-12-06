@@ -117,7 +117,22 @@ move 1 from 1 to 2
     }
     
     func testPart2() {
-        XCTAssertEqual(Day5(input: input).part2(), "0")
+        XCTAssertEqual(Day5(input: input).part2(), "MCD")
+    }
+
+}
+
+final class AoCDay6: XCTestCase {
+    
+    // MARK: - Day 6
+    let input = "mjqjpqmgbljsphdztnvjfqwrcgsmlb"
+    
+    func testPart1() {
+        XCTAssertEqual(Day6(input: input).part1(), 7)
+    }
+    
+    func testPart2() {
+        XCTAssertEqual(Day6(input: input).part2(), 19)
     }
 
 }

@@ -47,3 +47,7 @@ Very interesting puzzle, and I have learned a lot from today, but it is so hard 
 Got there in the end, and with a fairly readable code in the end. 
 
 Also, I like how protocols work in swift, the `associatedtype` generic is quite useful.
+
+### Day 6
+It was fantastic to have a bit of a day off with this one. It was made really simple by [Swift Algorithms'](https://github.com/apple/swift-algorithms) windowed function. Iterated through each window until an appropriate answer was found. I used the uniqued() function to reduce down the size of each window by removing any duplicated element, and then counting if the resulting array was the same size. An interesting approach I saw on peer solutions was to use a Set, which would do a very similar thing on instantiation. Wonder if there is a performance improvement by going with that one.
+See you again tomorrow!
