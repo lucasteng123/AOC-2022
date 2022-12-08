@@ -51,3 +51,13 @@ Also, I like how protocols work in swift, the `associatedtype` generic is quite 
 ### Day 6
 It was fantastic to have a bit of a day off with this one. It was made really simple by [Swift Algorithms'](https://github.com/apple/swift-algorithms) windowed function. Iterated through each window until an appropriate answer was found. I used the uniqued() function to reduce down the size of each window by removing any duplicated element, and then counting if the resulting array was the same size. An interesting approach I saw on peer solutions was to use a Set, which would do a very similar thing on instantiation. Wonder if there is a performance improvement by going with that one.
 See you again tomorrow!
+
+### Day 7
+This needs to be postponed to the weekend
+
+
+### Day 8
+Finally, no more looking at those if statements. 
+
+Today was a lot of logic bugs, where the tests were not sufficient to catch my errors. It turned out to be, at least for part 2 where I had the majority of my issues, a missing else / if on one of the conditions. 
+Biggest takeaway from today is if you are reliant on unit testing, make sure your unit testing catches all of the edge cases.
