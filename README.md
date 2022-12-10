@@ -61,3 +61,9 @@ Finally, no more looking at those if statements.
 
 Today was a lot of logic bugs, where the tests were not sufficient to catch my errors. It turned out to be, at least for part 2 where I had the majority of my issues, a missing else / if on one of the conditions. 
 Biggest takeaway from today is if you are reliant on unit testing, make sure your unit testing catches all of the edge cases.
+
+
+### Day 10
+Back at it again! 
+Today's was a lot of fun. Went heavily into an object oriented approach, creating a class for the `Computer` that would run the instructions. Not particularily efficent memory-wise for this precise problem, however it will be quite useful later if this concept comes back (Thinking back to IntCode from a couple years ago.)
+Closures are really nice in Swift, it was pretty easy to implement a hook for the clock cycle. The bigger thing that stood out to me this time around though was the breakpoints. They are so incredible.
