@@ -1,6 +1,5 @@
 import Foundation
 
-//stores clock cycles
 enum EInstruction {
     case noop
     case addx
